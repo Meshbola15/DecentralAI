@@ -1,0 +1,39 @@
+.hero-container {
+  background-image: url("../assets/hero.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero-container {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 50vw;
+}
+
+.hero-content h2 {
+  font-size: 60px;
+  font-family: "Syne", sans-serif;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #e3e3e3;
+  font-family: "poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.hero-content a {
+  padding: 10px 20px;
+  border: 3px solid white;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-size: "poppins", sans-serif;
+}

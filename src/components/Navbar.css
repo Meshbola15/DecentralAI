@@ -1,0 +1,50 @@
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  height: fit-content;
+  background-color: transparent;
+  top: 0;
+  z-index: 20;
+  padding: 2vh 10vw;
+}
+
+.navbar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-container img {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-logo-container p {
+  font-size: "Syne", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.navbar-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.navbar-links ul li {
+  list-style: none;
+}
+
+.navbar-links ul li a {
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
