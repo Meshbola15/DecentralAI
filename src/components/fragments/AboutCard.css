@@ -17,7 +17,7 @@
     rgba(0, 212, 255, 0) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031e65",endColorstr="#00d4ff",GradientType=1);
-  border-left-color: #031E65;
+  border-left-color: #031e65;
   border-left-width: 5px;
   border-left-style: solid;
   border-radius: 10px;
@@ -46,4 +46,15 @@
   color: #e3e3e3;
   font-size: 14px;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 769px) {
+  .AboutCard-header img {
+    width: 40px;
+  }
+
+  .AboutCard-container {
+    padding: 20px;
+    padding-right: 40px;
+  }
 }

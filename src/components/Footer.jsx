@@ -7,7 +7,7 @@ const Footer = () => {
     useGlobalContext();
   return (
     <div className="footer-container">
-      <div className="footer-content">
+      <div data-aos="zoom-in" className="footer-content">
         <section>
           <h2>Decentral</h2>
           <p>AI</p>

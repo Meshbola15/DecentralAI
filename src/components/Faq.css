@@ -45,14 +45,15 @@
   font-size: 14px;
   color: #aba7a7;
   display: none;
-  height: 0px !important;
+  /* height: 0px !important; */
   margin-top: 20px;
 }
 
 .faq-card-open p {
   display: block;
   transition: all ease-in-out 3s;
-  height: fit-content;
+  /* height: fit-content; */
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   .faq-grid {

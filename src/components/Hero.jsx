@@ -6,7 +6,7 @@ const Hero = () => {
   const { homeRef } = useGlobalContext();
   return (
     <div ref={homeRef} className="hero-container">
-      <section className="hero-content">
+      <section data-aos="zoom-out" className="hero-content">
         <h2>DecentralAI</h2>
         <p>
           Welcome to our AI-powered platform for investing, staking, and

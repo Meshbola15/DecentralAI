@@ -23,11 +23,16 @@ const AboutUs = () => {
           message="A fully decentralized investment fund that uses AI algorithms to manage your funds and achieve the best returns. With our transparent and low-fee platform, you can invest in sustainable projects and have a positive social impact."
           icon={wallet}
         />
-        <AboutCard title="Staking" message="" icon={rocket} />
         <AboutCard
-          title="Launchpad AI"
-          message="A platform for launching and investing in AI-related projects. Whether you're an entrepreneur looking to raise funds or an investor looking for promising projects, Launchpad AI has you covered."
-          icon={rocket}
+          title="Staking"
+          message="A governance and launchpad allocation service that allows you to earn rewards by holding and staking our tokens. With our secure and user-friendly platform, you can participate in the growth of our ecosystem and contribute to our community.
+"
+          icon={safe}
+        />
+        <AboutCard
+          title="Micro-lending"
+          message="A micro-loan service that provides quick and affordable loans to individuals who may not have access to traditional financing options. Our flexible repayment options and responsible lending practices ensure that you can get the funds you need without experiencing financial difficulties."
+          icon={wallet}
         />
       </div>
     </div>
