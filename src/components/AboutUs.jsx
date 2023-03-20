@@ -5,11 +5,13 @@ import shield from "../assets/icon1.svg";
 import rocket from "../assets/icon2.svg";
 import safe from "../assets/icon3.svg";
 import wallet from "../assets/icon4.svg";
+import { useGlobalContext } from "./Context";
 
 const AboutUs = () => {
+  const { aboutRef } = useGlobalContext();
   return (
-    <div className="AboutUs-container">
-      <h2>About Us</h2>
+    <div ref={aboutRef} className="AboutUs-container">
+      <h2 data-aos="fade-up">About Us</h2>
       <div className="AboutUs-grid-container">
         <AboutCard
           title="Launchpad AI"

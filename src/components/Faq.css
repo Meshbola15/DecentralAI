@@ -45,10 +45,17 @@
   font-size: 14px;
   color: #aba7a7;
   display: none;
+  height: 0px !important;
+  margin-top: 20px;
 }
 
+.faq-card-open p {
+  display: block;
+  transition: all ease-in-out 3s;
+  height: fit-content;
+}
 @media screen and (max-width: 768px) {
-  .faq-grid{
+  .faq-grid {
     grid-template-columns: repeat(auto-fit, minmax(70vw, 1fr));
   }
 

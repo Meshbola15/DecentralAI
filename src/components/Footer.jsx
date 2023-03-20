@@ -1,7 +1,10 @@
 import React from "react";
+import { useGlobalContext } from "./Context";
 import "./Footer.css";
 
 const Footer = () => {
+  const { homeRef, aboutRef, tokenomicsRef, roadmapRef, faqRef } =
+    useGlobalContext();
   return (
     <div className="footer-container">
       <div className="footer-content">
@@ -16,19 +19,59 @@ const Footer = () => {
           <h2>Links</h2>
           <ul>
             <li>
-              <a href="">About</a>
+              <p
+                onClick={() => {
+                  homeRef.current.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                home
+              </p>
             </li>
             <li>
-              <a href="">Tokenomics</a>
+              <p
+                onClick={() => {
+                  aboutRef.current.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                About Us
+              </p>
             </li>
             <li>
-              <a href="">Roadmap</a>
+              <p
+                onClick={() => {
+                  tokenomicsRef.current.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Tokenomics
+              </p>
             </li>
             <li>
-              <a href="">Faq</a>
+              <p
+                onClick={() => {
+                  roadmapRef.current.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Roadmap
+              </p>
             </li>
             <li>
-              <a href="">Whitepaper</a>
+              <p
+                onClick={() => {
+                  faqRef.current.scrollIntoView({
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Faq
+              </p>
             </li>
           </ul>
         </section>

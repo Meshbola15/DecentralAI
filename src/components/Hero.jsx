@@ -1,9 +1,11 @@
 import React from "react";
+import { useGlobalContext } from "./Context";
 import "./Hero.css";
 
 const Hero = () => {
+  const { homeRef } = useGlobalContext();
   return (
-    <div className="hero-container">
+    <div ref={homeRef} className="hero-container">
       <section className="hero-content">
         <h2>DecentralAI</h2>
         <p>

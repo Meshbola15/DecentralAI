@@ -6,7 +6,7 @@
   top: 0;
   z-index: 20;
   padding: 2vh 10vw;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* posi?tion: relative; */
 }
 
@@ -48,30 +48,102 @@
   list-style: none;
 }
 
-.navbar-links ul li a {
+.navbar-links ul li p {
   font-size: 18px;
   font-family: "poppins", sans-serif;
   color: white;
   text-decoration: none;
   text-transform: capitalize;
+  cursor: pointer;
+}
+
+.toggle-btn{
+  display: none;
 }
 
 @media screen and (max-width: 769px) {
   .navbar-links ul {
     flex-direction: column;
     text-align: right;
-    /* justify-content: flex-end;
-    align-items: flex-end; */
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
   .navbar-links {
-    /* width: fit-content; */
-    /* height: 100vh; */
+    width: fit-content;
+    height: 100vh;
     background-color: #0000009a;
     right: 0;
-    padding: 30px 20px;
+    padding: 30px 50px;
+    padding-top: 90px;
     position: absolute;
     top: 0;
     bottom: 0;
+    transform: translateX(1000px);
+    transition: all ease-in-out 1s;
+  }
+
+  .navbar-links-active {
+    transform: translateX(0);
+  }
+
+  .toggle-btn {
+    z-index: 200;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #031e65;
+    color: white;
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* display: grid;
+    place-content: center; */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+  }
+
+  /* .toggle-btn img {`
+    width: 24px;
+  } */
+
+  .toggle-btn span {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: #eeeeee;
+    border-radius: 4px;
+    transition: 0.5s;
+  }
+
+  .toggle-btn span:nth-child(1) {
+    transform: translateY(-15px);
+    width: 20px;
+    left: 12px;
+  }
+
+  .toggle-btn span:nth-child(2) {
+    transform: translateY(15px);
+    width: 10px;
+    left: 12px;
+  }
+
+  .toggle-btn-active span:nth-child(3) {
+    transform: translateX(60px);
+  }
+
+  .toggle-btn-active span:nth-child(1) {
+    width: 30px;
+    transform: translateY(0px) rotate(45deg);
+    transition-delay: 0.25s;
+  }
+
+  .toggle-btn-active span:nth-child(2) {
+    width: 30px;
+    transform: translateY(0px) rotate(315deg);
   }
 }
