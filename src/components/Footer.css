@@ -1,0 +1,117 @@
+.footer-container {
+  background-color: #000845;
+  padding: 10vh 10vw;
+  padding-bottom: 0;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  gap: 20px;
+}
+
+.footer-content section:first-child h2 {
+  color: #d350de;
+  font-family: "Syne", sans-serif;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.footer-content section:first-child p,
+.footer-content section:first-child h4 {
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.footer-content section:first-child h4 {
+  margin-top: 25px;
+  font-family: "poppins", sans-serif;
+}
+
+.footer-content section:nth-child(2) {
+  padding: 0 auto;
+  margin-left: 50px;
+}
+
+.footer-content section:nth-child(2) h2 {
+  font-family: "Syne", sans-serif;
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.footer-content section:nth-child(2) li {
+  list-style: none;
+}
+
+.footer-content section:nth-child(2) li a {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.footer-content section:nth-child(3) h2 {
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.footer-content section:nth-child(3) p {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.footer-content section:nth-child(3) input {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  border-radius: 5px;
+  outline: none;
+  background: #1d263b;
+  border: 1px solid #ffffff6e;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-content section:nth-child(3) button {
+  padding: 10px 20px;
+  background: #d350de;
+  border: none;
+  font-family: "poppins", sans-serif;
+  border-radius: 10px;
+  font-size: 14px;
+  /* font-weight: 600; */
+}
+
+.footer-copyright {
+  margin-top: 50px;
+}
+
+.footer-copyright hr {
+  border: none;
+  height: 1px;
+  background: #64646471;
+}
+
+.footer-copyright p {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px){
+  .footer-content section:nth-child(2) {
+    margin-left: 0px;
+  }
+}

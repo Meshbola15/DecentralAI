@@ -88,3 +88,16 @@
   top: 40vh;
 
 }
+
+@media screen and (max-width: 768px){
+  .tokenomics-content {
+    width: 70vw;
+  }
+  .tokenomics-content h2 {
+    font-size: 20px;
+  }
+
+  .tokenomics-list {
+    font-size: 12px;
+  }
+}

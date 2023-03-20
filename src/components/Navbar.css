@@ -7,6 +7,7 @@
   z-index: 20;
   padding: 2vh 10vw;
   overflow: hidden;
+  /* posi?tion: relative; */
 }
 
 .navbar-scrolled {
@@ -53,4 +54,24 @@
   color: white;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 769px) {
+  .navbar-links ul {
+    flex-direction: column;
+    text-align: right;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+  }
+
+  .navbar-links {
+    /* width: fit-content; */
+    /* height: 100vh; */
+    background-color: #0000009a;
+    right: 0;
+    padding: 30px 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
 }
