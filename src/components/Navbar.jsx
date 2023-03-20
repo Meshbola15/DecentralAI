@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.svg";
-import "./Navbar.css"
+import "./Navbar.css";
 
 const Navbar = () => {
+  const [navbarClass, setNavbarClass] = useState("");
+  const screenHeight = window.innerHeight;
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY >= screenHeight) {
+      setNavbarClass("navbar-scrolled");
+    } else {
+      setNavbarClass("");
+    }
+  };
   return (
-    <div className="navbar-container">
+    <div className={`navbar-container ${navbarClass}`}>
       <section className="navbar-section">
         <div className="navbar-logo-container">
           <img src={logo} alt="logo" />

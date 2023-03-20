@@ -6,6 +6,12 @@
   top: 0;
   z-index: 20;
   padding: 2vh 10vw;
+  overflow: hidden;
+}
+
+.navbar-scrolled {
+  background-color: #000;
+  transition: ease-in-out 1s all;
 }
 
 .navbar-section {
@@ -25,7 +31,7 @@
 }
 
 .navbar-logo-container p {
-  font-size: "Syne", sans-serif;
+  font-family: "Syne", sans-serif;
   font-size: 18px;
   color: #fff;
 }

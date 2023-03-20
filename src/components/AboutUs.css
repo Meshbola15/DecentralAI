@@ -1,0 +1,21 @@
+.AboutUs-container {
+  background-color: black;
+  padding: 4vh 10vw;
+  /* width: 100vw; */
+  overflow: hidden;
+}
+
+.AboutUs-container h2 {
+  font-family: "Syne", sans-serif;
+  font-size: 60px;
+  margin: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.AboutUs-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  gap: 30px;
+  overflow: hidden;
+}

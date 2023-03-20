@@ -1,0 +1,83 @@
+.roadmap-container {
+  padding: 4vh 10vw;
+  background-color: #000;
+}
+
+.roadmap-container h1 {
+  font-size: 60px;
+  font-family: "Syne", sans-serif;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.roadmap-content {
+  background: rgb(7, 22, 60);
+  background: linear-gradient(
+    126deg,
+    rgba(7, 22, 60, 0.5) 50%,
+    rgba(100, 8, 145, 0.7) 100%
+  );
+  border-radius: 20px;
+  padding: 20px 0 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.roadmap-clock {
+  width: 350px;
+  margin-top: -200px;
+}
+
+.roadmap-content-border {
+  background: rgb(2, 22, 75);
+  background: linear-gradient(
+    126deg,
+    rgba(2, 22, 75, 0.82) 50%,
+    rgba(50, 2, 74, 0.8183648459383753) 100%
+  );
+  padding: 4px;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+.roadmap-content div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.roadmap-content-card {
+  background: rgb(2, 22, 75);
+  background: linear-gradient(
+    126deg,
+    rgba(50, 2, 74, 0.8183648459383753) 50%,
+    rgba(2, 22, 75, 0.82) 100%
+  );
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.roadmap-content-card article {
+  padding: 5px;
+  background-color: #031e65;
+  width: fit-content;
+  display: grid;
+  place-content: center;
+  border-radius: 5px;
+}
+
+.roadmap-content-card article img {
+  width: 20px;
+}
+
+.roadmap-content-card p {
+  color: white;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+}

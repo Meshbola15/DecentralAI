@@ -1,0 +1,90 @@
+.tokenomics-content {
+  background: rgb(2, 22, 75);
+  background: linear-gradient(
+    126deg,
+    rgba(2, 22, 75, 1) 0%,
+    rgba(50, 2, 74, 1) 100%
+  );
+  padding: 30px;
+  width: 50vw;
+  border-radius: 10px;
+  z-index: 10;
+  
+}
+
+.tokenomics-container {
+  /* width: 100vw; */
+  height: 100vh;
+  background-color: #000;
+  display: grid;
+  place-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.tokenomics-content-border {
+  background: rgb(2, 22, 75);
+  background: linear-gradient(
+    126deg,
+    rgba(2, 22, 75, 0.82) 0%,
+    rgba(50, 2, 74, 0.8183648459383753) 100%
+  );
+  padding: 4px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.tokenomics-content h2 {
+  font-size: 30px;
+  font-family: "Syne", sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  z-index: 10;
+}
+
+.tokenomics-list-border {
+  background: rgb(7, 22, 60);
+  background: linear-gradient(
+    126deg,
+    rgba(7, 22, 60, 0.6) 0%,
+    rgba(154, 27, 218, 0.5) 100%
+  );
+  padding: 2px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.tokenomics-list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  padding: 10px 30px;
+  background: rgb(7, 22, 60);
+  background: linear-gradient(
+    126deg,
+    rgba(7, 22, 60, 0.7) 0%,
+    rgba(154, 27, 218, 0.6) 100%
+  );
+  font-size: 15px;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.tokenomics-bg-blur {
+  width: 300px;
+  height: 300px;
+  background-color: #460365;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  right: 4vw;
+  filter: blur(150px);
+  -webkit-filter: blur(150px);
+  top: 40vh;
+
+}

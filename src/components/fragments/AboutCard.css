@@ -1,0 +1,49 @@
+.AboutCard-container {
+  width: auto;
+  background: rgb(3, 30, 101);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(3, 30, 101, 0.4) 0%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(3, 30, 101, 0.4) 0%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(3, 30, 101, 0.4) 0%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#031e65",endColorstr="#00d4ff",GradientType=1);
+  border-left-color: #031E65;
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-radius: 10px;
+  padding: 40px;
+  padding-right: 80px;
+}
+
+.AboutCard-header {
+  display: flex;
+  align-items: center;
+}
+
+.AboutCard-header img {
+  width: 60px;
+  margin-right: 20px;
+}
+
+.AboutCard-header h3 {
+  font-family: "poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.AboutCard-container p {
+  font-family: "poppins", sans-serif;
+  color: #e3e3e3;
+  font-size: 14px;
+  margin-top: 10px;
+}
