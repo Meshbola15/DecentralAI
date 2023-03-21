@@ -56,7 +56,12 @@
 
   .AboutCard-container {
     padding: 20px;
-    padding-right: 40px;
+    padding-right: 20px;
+  }
+
+  .AboutCard-container p{
+    word-wrap: break-word;
+    word-wrap: break-word;
   }
 
   .AboutCard-header h3 {

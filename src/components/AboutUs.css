@@ -2,7 +2,6 @@
   background-color: black;
   padding: 8vh 10vw;
   /* width: 100vw; */
-  overflow: hidden;
 }
 
 .AboutUs-container h2 {
@@ -23,5 +22,9 @@
 @media screen and (max-width: 768px){
   .AboutUs-container h2 {
     font-size: 30px;
+  }
+
+  .AboutUs-grid-container{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
