@@ -9,7 +9,7 @@ const Hero = () => {
       <section data-aos="zoom-out" className="hero-content">
         <h2>DecentralAI</h2>
         <p>
-          Welcome to our AI-powered platform for investing, staking,
+          Welcome to our AI-powered launchpad platform for investing, staking,
           micro-lending and lottery! Our platform is built on cutting-edge
           technology and powered by AI algorithms that constantly analyze the
           market to identify the best investment opportunities. Our goal is to
