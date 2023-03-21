@@ -34,6 +34,16 @@
   text-align: left;
 }
 
+.faq-card div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-card div img {
+  width: 20px;
+}
+
 .faq-card h3 {
   font-family: "poppins", sans-serif;
   font-size: 16px;

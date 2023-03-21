@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useGlobalContext } from "./Context";
 import "./Faq.css";
+import plus from "../assets/plus.png"
 
 const data = [
   {
@@ -48,7 +49,10 @@ const FaqCard = ({ item, index }) => {
       }}
       className={`faq-card ${isOpen && "faq-card-open"}`}
     >
-      <h3>{item.title}</h3>
+      <div>
+        <h3>{item.title}</h3>
+        <img src={plus} alt="plus" />
+      </div>
       <p>{item.body}</p>
     </div>
   );

@@ -36,9 +36,9 @@
 }
 
 .AboutCard-header h3 {
-  font-family: "poppins", sans-serif;
+  font-family: "Syne", sans-serif;
   color: #fff;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .AboutCard-container p {
@@ -46,6 +46,7 @@
   color: #e3e3e3;
   font-size: 14px;
   margin-top: 10px;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 769px) {
@@ -56,5 +57,9 @@
   .AboutCard-container {
     padding: 20px;
     padding-right: 40px;
+  }
+
+  .AboutCard-header h3 {
+    font-size: 16px;
   }
 }
