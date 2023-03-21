@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useGlobalContext } from "./Context";
 import "./Faq.css";
-import plus from "../assets/plus.png"
+import plus from "../assets/plus.png";
+import minus from "../assets/minus.png";
 
 const data = [
   {
@@ -51,7 +52,7 @@ const FaqCard = ({ item, index }) => {
     >
       <div>
         <h3>{item.title}</h3>
-        <img src={plus} alt="plus" />
+        <img src={isOpen ? minus : plus} alt="plus" />
       </div>
       <p>{item.body}</p>
     </div>
