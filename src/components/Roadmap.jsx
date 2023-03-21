@@ -23,10 +23,10 @@ const Roadmap = () => {
       <div className="roadmap-content-border">
         <section className="roadmap-content">
           <div className="">
-            <RoadmapContent message="Development of decentralized fund" />
             <RoadmapContent message="Launchpad for AI projects" />
+            <RoadmapContent message="Development of decentralized fund" />
             <RoadmapContent message="Micro-lending service" />
-            <RoadmapContent message="ESIS development (Ethereum Stakeholder Incentive System)" />
+            <RoadmapContent message="Lottery" />
           </div>
           <img
             data-aos="zoom-out"

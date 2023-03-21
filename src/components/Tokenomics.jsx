@@ -27,14 +27,15 @@ const Tokenomics = () => {
               <p>700,000,000</p>
             </div>
           </section>
-          <section data-aos="zoom-in" className="tokenomics-list-border">
+          {/* <section data-aos="zoom-in" className="tokenomics-list-border">
             <div className="tokenomics-list">
               <p>Token Price</p>
               <p>$0.00001</p>
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
+      <button className="tokenomics-list-btn">Join the Presale</button>
       <div className="tokenomics-bg-blur" />
     </div>
   );

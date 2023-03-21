@@ -9,7 +9,6 @@
   width: 50vw;
   border-radius: 10px;
   z-index: 10;
-  
 }
 
 .tokenomics-container {
@@ -86,10 +85,28 @@
   filter: blur(150px);
   -webkit-filter: blur(150px);
   top: 40vh;
-
 }
 
-@media screen and (max-width: 768px){
+.tokenomics-list-btn {
+  background: rgb(7, 22, 60);
+  background: linear-gradient(
+    126deg,
+    rgba(7, 22, 60, 0.7) 0%,
+    rgba(154, 27, 218, 0.6) 100%
+  );
+  color: #fff;
+  padding: 10px 30px;
+  outline: none;
+  font-family: "Syne", sans-serif;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
   .tokenomics-content {
     width: 80vw;
     padding: 20px;
@@ -100,5 +117,10 @@
 
   .tokenomics-list {
     font-size: 12px;
+    padding: 10px;
+  }
+
+  .tokenomics-list-btn {
+    font-size: 16px;
   }
 }

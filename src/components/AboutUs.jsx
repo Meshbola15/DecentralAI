@@ -21,7 +21,7 @@ const AboutUs = () => {
         <AboutCard
           title="Decentralized Fund"
           message="A fully decentralized investment fund that uses AI algorithms to manage your funds and achieve the best returns. With our transparent and low-fee platform, you can invest in sustainable projects and have a positive social impact."
-          icon={wallet}
+          icon={shield}
         />
         <AboutCard
           title="Staking"
