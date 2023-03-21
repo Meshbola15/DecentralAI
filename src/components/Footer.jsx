@@ -12,7 +12,7 @@ const Footer = () => {
           <h2>Decentral</h2>
           <p>AI</p>
           <h4>
-            AI-powered platform for investing, staking, and micro-lending!
+            AI-powered launchpad platform for investing, staking, and micro-lending!
           </h4>
         </section>
         <section>
